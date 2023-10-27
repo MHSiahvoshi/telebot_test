@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot("6732287229:AAEHcZFArgAgw_XKx8ZJHChzGRcSpZU8apo")
+bot = telebot.TeleBot("token")
 first_button = telebot.types.InlineKeyboardButton("Downloader_bot", url="https://t.me/Danlodrbot")
 markup = telebot.types.InlineKeyboardMarkup()
 markup.add(first_button)
