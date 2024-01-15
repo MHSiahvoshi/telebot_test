@@ -4,7 +4,7 @@ first_button = telebot.types.InlineKeyboardButton("Downloader_bot", url="https:/
 markup = telebot.types.InlineKeyboardMarkup()
 markup.add(first_button)
 key_button = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-key_button.add("TwiteNudes", "Ssskade", "baad_pussy")
+key_button.add("TwiteNudes", "Ssskade", "baad")
 # get_contact = telebot.types.KeyboardButton("black")
 
 
@@ -25,7 +25,7 @@ def keyboard_help(message):
     elif message.text == "Ssskade":
         bot.send_message(message.chat.id, "@Sskkadebot")
     elif message.text == "baad_pussy":
-        bot.send_message(message.chat.id, "@baad_pussy_Bot")
+        bot.send_message(message.chat.id, "@baad_Bot")
 
 
 bot.infinity_polling()
